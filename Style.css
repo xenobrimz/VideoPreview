@@ -1,0 +1,32 @@
+*{
+    
+    box-sizing: border-box;
+    height: auto 0;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-items:center;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 700px;
+    width:900px;
+    align-self: center;
+}
+.videoContainer video{
+    border:5px solid black;
+    height: 350px;
+    width:400px;
+    align-self: center;
+}

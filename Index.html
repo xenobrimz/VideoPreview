@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css">
+        <title>Video Preview</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="container">
+                <div class="videoContainer">
+                    <video id="video1"  onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" muted>
+                        <source src="Videos/Video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="videoContainer">
+                    <video id="video2" onmouseover="playVideo(this)" onmouseout="pauseVideo(this)" muted>
+                        <source src="Videos/Video2.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <script src="Main.js"></script>
+        </div>
+    </body>
+</html>
